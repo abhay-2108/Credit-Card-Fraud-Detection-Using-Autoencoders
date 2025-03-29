@@ -69,11 +69,19 @@ While traditional classification metrics are informative, in the context of frau
    ```bash
    pip install numpy pandas matplotlib seaborn scikit-learn tensorflow
    ```
-2. **Data Preparation:**  
+2. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/abhay-2108/Credit-Card-Fraud-Detection-Using-Autoencoders.git
+   ```
+3. **Navigate to the Project Directory:**
+   ```bash
+   cd Credit-Card-Fraud-Detection-Using-Autoencoders
+   ```
+4. **Data Preparation:**  
    Place the fraudTrain.csv and fraudTest.csv files in the project directory.
-3. **Execute Notebooks/Scripts:**  
+5. **Execute Notebooks/Scripts:**  
    Run the provided Jupyter notebook or Python scripts in sequential order to perform EDA, preprocess the data, train the autoencoder, and evaluate the results.
-4. **Model Evaluation:**  
+6. **Model Evaluation:**  
    After training, adjust the reconstruction error threshold as needed and compute performance metrics to assess the effectiveness of the model.
 
 ## Conclusion
